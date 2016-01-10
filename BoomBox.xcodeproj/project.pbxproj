@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29F8761D1C42D4FC0022523F /* BrowseAndSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F8761C1C42D4FC0022523F /* BrowseAndSearch.storyboard */; };
 		9E202C571BFAC0C6007CEFCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */; };
 		9E202C591BFAC0C6007CEFCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E202C581BFAC0C6007CEFCF /* ViewController.swift */; };
 		9E202C5C1BFAC0C6007CEFCF /* Ed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5A1BFAC0C6007CEFCF /* Ed.storyboard */; };
 		9E202C5E1BFAC0C6007CEFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5D1BFAC0C6007CEFCF /* Assets.xcassets */; };
 		9E202C611BFAC0C6007CEFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5F1BFAC0C6007CEFCF /* LaunchScreen.storyboard */; };
-		9E202C691BFAC0EC007CEFCF /* McClure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C681BFAC0EC007CEFCF /* McClure.storyboard */; settings = {ASSET_TAGS = (); }; };
-		9E202C6B1BFAC111007CEFCF /* Joao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C6A1BFAC111007CEFCF /* Joao.storyboard */; settings = {ASSET_TAGS = (); }; };
-		9E202C6D1BFAC11E007CEFCF /* Mick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C6C1BFAC11E007CEFCF /* Mick.storyboard */; settings = {ASSET_TAGS = (); }; };
+		9E202C691BFAC0EC007CEFCF /* McClure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C681BFAC0EC007CEFCF /* McClure.storyboard */; };
+		9E202C6B1BFAC111007CEFCF /* Joao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C6A1BFAC111007CEFCF /* Joao.storyboard */; };
+		9E202C6D1BFAC11E007CEFCF /* Mick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C6C1BFAC11E007CEFCF /* Mick.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29F8761C1C42D4FC0022523F /* BrowseAndSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BrowseAndSearch.storyboard; sourceTree = "<group>"; };
 		9E202C531BFAC0C6007CEFCF /* BoomBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E202C581BFAC0C6007CEFCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29F876191C42D4970022523F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		29F8761A1C42D4AB0022523F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E202C581BFAC0C6007CEFCF /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		29F8761B1C42D4B70022523F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29F8761C1C42D4FC0022523F /* BrowseAndSearch.storyboard */,
+				9E202C5A1BFAC0C6007CEFCF /* Ed.storyboard */,
+				9E202C681BFAC0EC007CEFCF /* McClure.storyboard */,
+				9E202C6A1BFAC111007CEFCF /* Joao.storyboard */,
+				9E202C6C1BFAC11E007CEFCF /* Mick.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		9E202C4A1BFAC0C6007CEFCF = {
 			isa = PBXGroup;
 			children = (
@@ -61,11 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */,
-				9E202C581BFAC0C6007CEFCF /* ViewController.swift */,
-				9E202C5A1BFAC0C6007CEFCF /* Ed.storyboard */,
-				9E202C681BFAC0EC007CEFCF /* McClure.storyboard */,
-				9E202C6A1BFAC111007CEFCF /* Joao.storyboard */,
-				9E202C6C1BFAC11E007CEFCF /* Mick.storyboard */,
+				29F876191C42D4970022523F /* Models */,
+				29F8761A1C42D4AB0022523F /* Controllers */,
+				29F8761B1C42D4B70022523F /* Views */,
 				9E202C5D1BFAC0C6007CEFCF /* Assets.xcassets */,
 				9E202C5F1BFAC0C6007CEFCF /* LaunchScreen.storyboard */,
 				9E202C621BFAC0C6007CEFCF /* Info.plist */,
@@ -136,6 +163,7 @@
 				9E202C5E1BFAC0C6007CEFCF /* Assets.xcassets in Resources */,
 				9E202C6B1BFAC111007CEFCF /* Joao.storyboard in Resources */,
 				9E202C5C1BFAC0C6007CEFCF /* Ed.storyboard in Resources */,
+				29F8761D1C42D4FC0022523F /* BrowseAndSearch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +325,7 @@
 				9E202C671BFAC0C6007CEFCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
