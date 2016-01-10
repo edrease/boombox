@@ -13,10 +13,12 @@ class SpaceOwner: NSObject {
     var firstName: String
     var lastName: String
     var email: String
+//    var spacesOwned: [PracticeSpace]
     
-    init(firstName: String, lastName: String, email: String) {
+    init(firstName: String, lastName: String, email: String/*, spacesOwned: [PracticeSpace]*/) {
         self.firstName = firstName
         self.lastName  = lastName
         self.email     = email
+//        self.spacesOwned = spacesOwned
     }
 }

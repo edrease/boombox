@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SpaceDetailViewController: UIViewController {
+class SpaceDetailViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     var passedSpace: PracticeSpace!
     
@@ -17,6 +17,11 @@ class SpaceDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+      //  NSLog("passed space, %@", self.passedSpace.imageArray.count)
+        
+        self.spaceCollectionView.dataSource = self
+        self.spaceCollectionView.delegate = self
 
         // Do any additional setup after loading the view.
     }
@@ -26,6 +31,33 @@ class SpaceDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: - UICollectionViewDataSource protocol
+    
+    // tell the collection view how many cells to make
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return self.passedSpace.imageArray.count
+    }
+    
+    // make a cell for each cell index path
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        
+        // get a reference to our storyboard cell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("photoCell", forIndexPath: indexPath) as! SpacePhotoCollectionViewCell
+        
+        // Use the outlet in our custom class to get a reference to the UILabel in the cell
+//       // cell. = self.items[indexPath.item]
+        cell.backgroundColor = UIColor.yellowColor() // make cell more visible in our example project
+        cell.photoCellImageView.image = self.passedSpace.imageArray[indexPath.row]
+        
+        return cell
+    }
+    
+    // MARK: - UICollectionViewDelegate protocol
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        // handle tap events
+        print("You selected cell #\(indexPath.item)!")
+    }
 
     /*
     // MARK: - Navigation

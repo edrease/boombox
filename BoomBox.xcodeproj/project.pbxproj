@@ -22,6 +22,7 @@
 		29F8763D1C43005C0022523F /* Rehearsing_02_magnet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F8763C1C43005C0022523F /* Rehearsing_02_magnet.jpg */; };
 		29F876411C43074C0022523F /* BrowseSpacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F876401C43074C0022523F /* BrowseSpacesTableViewCell.swift */; };
 		29F876431C430DF40022523F /* people_DSC0209.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F876421C430DF40022523F /* people_DSC0209.jpg */; };
+		29F876451C43247C0022523F /* SpacePhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F876441C43247C0022523F /* SpacePhotoCollectionViewCell.swift */; };
 		9E202C571BFAC0C6007CEFCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */; };
 		9E202C5C1BFAC0C6007CEFCF /* Ed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5A1BFAC0C6007CEFCF /* Ed.storyboard */; };
 		9E202C5E1BFAC0C6007CEFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5D1BFAC0C6007CEFCF /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		29F8763C1C43005C0022523F /* Rehearsing_02_magnet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rehearsing_02_magnet.jpg; sourceTree = "<group>"; };
 		29F876401C43074C0022523F /* BrowseSpacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseSpacesTableViewCell.swift; sourceTree = "<group>"; };
 		29F876421C430DF40022523F /* people_DSC0209.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = people_DSC0209.jpg; sourceTree = "<group>"; };
+		29F876441C43247C0022523F /* SpacePhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacePhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		9E202C531BFAC0C6007CEFCF /* BoomBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E202C5B1BFAC0C6007CEFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Ed.storyboard; sourceTree = "<group>"; };
@@ -74,7 +76,6 @@
 			children = (
 				29F876251C42D8250022523F /* PracticeSpace.swift */,
 				29F876381C42F8DC0022523F /* SpaceOwner.swift */,
-				29F876401C43074C0022523F /* BrowseSpacesTableViewCell.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -84,6 +85,8 @@
 			children = (
 				29F876271C42D8510022523F /* BrowseCityTableViewController.swift */,
 				29F8762C1C42EBA70022523F /* SpaceDetailViewController.swift */,
+				29F876401C43074C0022523F /* BrowseSpacesTableViewCell.swift */,
+				29F876441C43247C0022523F /* SpacePhotoCollectionViewCell.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				29F876411C43074C0022523F /* BrowseSpacesTableViewCell.swift in Sources */,
 				29F8762D1C42EBA70022523F /* SpaceDetailViewController.swift in Sources */,
 				29F876281C42D8510022523F /* BrowseCityTableViewController.swift in Sources */,
+				29F876451C43247C0022523F /* SpacePhotoCollectionViewCell.swift in Sources */,
 				9E202C571BFAC0C6007CEFCF /* AppDelegate.swift in Sources */,
 				29F876261C42D8250022523F /* PracticeSpace.swift in Sources */,
 				29F876391C42F8DC0022523F /* SpaceOwner.swift in Sources */,

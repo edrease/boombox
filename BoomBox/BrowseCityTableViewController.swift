@@ -171,9 +171,9 @@ class BrowseCityTableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "Details" {
+        if segue.identifier == "showSpaceDetail" {
             let destinationVC = segue.destinationViewController as! SpaceDetailViewController
-            
+            print("\(self.spaceToPass.title)")
             destinationVC.passedSpace = spaceToPass
         }
     }
