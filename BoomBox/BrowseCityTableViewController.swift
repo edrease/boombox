@@ -121,7 +121,7 @@ class BrowseCityTableViewController: UITableViewController {
 
         let priceLabelText = "$\(priceIntValue)"
         cell.spacePriceLabel.text = priceLabelText
-        
+        cell.spaceTitleLabel.text = thisSpace.title
         return cell
     }
 

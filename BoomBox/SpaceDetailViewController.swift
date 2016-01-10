@@ -11,6 +11,9 @@ import UIKit
 class SpaceDetailViewController: UIViewController {
     
     var passedSpace: PracticeSpace!
+    
+    
+    @IBOutlet weak var spaceCollectionView: UICollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
