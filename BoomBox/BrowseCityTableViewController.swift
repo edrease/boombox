@@ -8,11 +8,44 @@
 
 import UIKit
 
+
 class BrowseCityTableViewController: UITableViewController {
+    
+    var spacesInThisCity: [PracticeSpace] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let owner1 = SpaceOwner(firstName: "Todd", lastName: "Rundgren", email: "toddrund@gmail.com")
+        
+        let space1 = PracticeSpace(owner: owner1, title: "Room with a View", streetAddress: "4553 Johnson Road", city: "Seattle", stateAbbrev: "WA", dailyRate: 88.00, spaceDescription: "Large, sunny room with ample power outlets. Add more description here. Add more description here. Add more description here. Add more description here. Add more description here.")
+        
+        spacesInThisCity.append(space1)
+        
+        let owner2 = SpaceOwner(firstName: "Aimee", lastName: "Mann", email: "amann@gmail.com")
+        
+        let space2 = PracticeSpace(owner: owner2, title: "Studio in Ballard", streetAddress: "4553 Hyatt St", city: "Seattle", stateAbbrev: "WA", dailyRate: 120.00, spaceDescription: "This is a practice space. Add more description here. Add more description here. Add more description here. Add more description here. Add more description here.")
+        
+        spacesInThisCity.append(space2)
 
+        let owner3 = SpaceOwner(firstName: "Al", lastName: "Pacino", email: "apac@gmail.com")
+        
+        let space3 = PracticeSpace(owner: owner3, title: "Ed's Mom's House", streetAddress: "2889 Yomuthas Ave", city: "West Seattle", stateAbbrev: "WA", dailyRate: 60.00, spaceDescription: "This is a practice space. Add more description here. Add more description here. Add more description here. Add more description here. Add more description here.")
+        
+        spacesInThisCity.append(space3)
+        
+        let owner4 = SpaceOwner(firstName: "Rebecca", lastName: "Haysworth", email: "rebhaysw@gmail.com")
+        
+        let space4 = PracticeSpace(owner: owner4, title: "Professional Recording Studio", streetAddress: "122 Electric Ave", city: "Seattle", stateAbbrev: "WA", dailyRate: 66.00, spaceDescription: "This is a practice space. Add more description here. Add more description here. Add more description here. Add more description here. Add more description here.")
+        
+        spacesInThisCity.append(space4)
+        
+        let space5 = PracticeSpace(owner: owner3, title: "Really Nice Space", streetAddress: "889 15th St", city: "Seattle", stateAbbrev: "WA", dailyRate: 76.00, spaceDescription: "This is a practice space. Add more description here. Add more description here. Add more description here. Add more description here. Add more description here.")
+        
+        spacesInThisCity.append(space5)
+        
+        
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -34,7 +67,7 @@ class BrowseCityTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 5
+        return spacesInThisCity.count
     }
 
     
@@ -82,6 +115,12 @@ class BrowseCityTableViewController: UITableViewController {
         return true
     }
     */
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        //let selectedItem = items.objectAtIndex(indexPath.row) as String
+        //let itemId = selectedItem.componentsSeparatedByString("$%^")
+        //itemId[1] - Item Id
+    }
 
     
     // MARK: - Navigation
