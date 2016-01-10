@@ -11,6 +11,7 @@
 		29F876221C42D65E0022523F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F876211C42D65E0022523F /* Main.storyboard */; };
 		29F876261C42D8250022523F /* PracticeSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F876251C42D8250022523F /* PracticeSpace.swift */; };
 		29F876281C42D8510022523F /* BrowseCityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F876271C42D8510022523F /* BrowseCityTableViewController.swift */; };
+		29F8762D1C42EBA70022523F /* SpaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F8762C1C42EBA70022523F /* SpaceDetailViewController.swift */; };
 		9E202C571BFAC0C6007CEFCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */; };
 		9E202C5C1BFAC0C6007CEFCF /* Ed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5A1BFAC0C6007CEFCF /* Ed.storyboard */; };
 		9E202C5E1BFAC0C6007CEFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5D1BFAC0C6007CEFCF /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		29F876211C42D65E0022523F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		29F876251C42D8250022523F /* PracticeSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeSpace.swift; sourceTree = "<group>"; };
 		29F876271C42D8510022523F /* BrowseCityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseCityTableViewController.swift; sourceTree = "<group>"; };
+		29F8762C1C42EBA70022523F /* SpaceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceDetailViewController.swift; sourceTree = "<group>"; };
 		9E202C531BFAC0C6007CEFCF /* BoomBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E202C5B1BFAC0C6007CEFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Ed.storyboard; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				29F876271C42D8510022523F /* BrowseCityTableViewController.swift */,
+				29F8762C1C42EBA70022523F /* SpaceDetailViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F8762D1C42EBA70022523F /* SpaceDetailViewController.swift in Sources */,
 				29F876281C42D8510022523F /* BrowseCityTableViewController.swift in Sources */,
 				9E202C571BFAC0C6007CEFCF /* AppDelegate.swift in Sources */,
 				29F876261C42D8250022523F /* PracticeSpace.swift in Sources */,
