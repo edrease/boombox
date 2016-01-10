@@ -6,7 +6,7 @@
 //  Copyright © 2016 warriors. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class PracticeSpace: NSObject {
     
@@ -19,9 +19,10 @@ class PracticeSpace: NSObject {
 //    var hoursOfOpOpen: NSDate
 //    var hoursOfOpClose: NSDate
     var spaceDescription: String
+    var imageArray: [UIImage]
     
     
-    init(owner: SpaceOwner, title: String, streetAddress: String, city: String, stateAbbrev: String, dailyRate: Double, /*hoursOfOpOpen:NSDate, hoursOfOpClose: NSDate,*/ spaceDescription: String){
+    init(owner: SpaceOwner, title: String, streetAddress: String, city: String, stateAbbrev: String, dailyRate: Double, /*hoursOfOpOpen:NSDate, hoursOfOpClose: NSDate,*/ spaceDescription: String, imageArray: [UIImage]){
         self.owner            = owner
         self.title            = title
         self.streetAddress    = streetAddress
@@ -31,5 +32,6 @@ class PracticeSpace: NSObject {
 //        self.hoursOfOpOpen    = hoursOfOpOpen
 //        self.hoursOfOpClose   = hoursOfOpClose
         self.spaceDescription = spaceDescription
+        self.imageArray       = imageArray
     }
 }

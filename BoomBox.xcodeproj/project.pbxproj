@@ -18,6 +18,9 @@
 		29F876361C42EC350022523F /* rehearsal-space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F876311C42EC350022523F /* rehearsal-space.jpg */; };
 		29F876371C42EC350022523F /* room-with-window-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F876321C42EC350022523F /* room-with-window-1.jpg */; };
 		29F876391C42F8DC0022523F /* SpaceOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F876381C42F8DC0022523F /* SpaceOwner.swift */; };
+		29F8763B1C4300560022523F /* soundhouse_attichigh-res.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F8763A1C4300560022523F /* soundhouse_attichigh-res.jpg */; };
+		29F8763D1C43005C0022523F /* Rehearsing_02_magnet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F8763C1C43005C0022523F /* Rehearsing_02_magnet.jpg */; };
+		29F876411C43074C0022523F /* BrowseSpacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F876401C43074C0022523F /* BrowseSpacesTableViewCell.swift */; };
 		9E202C571BFAC0C6007CEFCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */; };
 		9E202C5C1BFAC0C6007CEFCF /* Ed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5A1BFAC0C6007CEFCF /* Ed.storyboard */; };
 		9E202C5E1BFAC0C6007CEFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5D1BFAC0C6007CEFCF /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 		29F876311C42EC350022523F /* rehearsal-space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rehearsal-space.jpg"; sourceTree = "<group>"; };
 		29F876321C42EC350022523F /* room-with-window-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "room-with-window-1.jpg"; sourceTree = "<group>"; };
 		29F876381C42F8DC0022523F /* SpaceOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceOwner.swift; sourceTree = "<group>"; };
+		29F8763A1C4300560022523F /* soundhouse_attichigh-res.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "soundhouse_attichigh-res.jpg"; sourceTree = "<group>"; };
+		29F8763C1C43005C0022523F /* Rehearsing_02_magnet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rehearsing_02_magnet.jpg; sourceTree = "<group>"; };
+		29F876401C43074C0022523F /* BrowseSpacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseSpacesTableViewCell.swift; sourceTree = "<group>"; };
 		9E202C531BFAC0C6007CEFCF /* BoomBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E202C5B1BFAC0C6007CEFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Ed.storyboard; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 			children = (
 				29F876251C42D8250022523F /* PracticeSpace.swift */,
 				29F876381C42F8DC0022523F /* SpaceOwner.swift */,
+				29F876401C43074C0022523F /* BrowseSpacesTableViewCell.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -116,6 +123,8 @@
 				29F8761A1C42D4AB0022523F /* Controllers */,
 				29F8761B1C42D4B70022523F /* Views */,
 				9E202C5D1BFAC0C6007CEFCF /* Assets.xcassets */,
+				29F8763A1C4300560022523F /* soundhouse_attichigh-res.jpg */,
+				29F8763C1C43005C0022523F /* Rehearsing_02_magnet.jpg */,
 				29F8762E1C42EC350022523F /* room.png */,
 				29F8762F1C42EC350022523F /* DSC_1172aa.jpg */,
 				29F876301C42EC350022523F /* imgext.jpg */,
@@ -188,10 +197,12 @@
 				9E202C691BFAC0EC007CEFCF /* McClure.storyboard in Resources */,
 				29F876341C42EC350022523F /* DSC_1172aa.jpg in Resources */,
 				29F876361C42EC350022523F /* rehearsal-space.jpg in Resources */,
+				29F8763D1C43005C0022523F /* Rehearsing_02_magnet.jpg in Resources */,
 				9E202C611BFAC0C6007CEFCF /* LaunchScreen.storyboard in Resources */,
 				9E202C6D1BFAC11E007CEFCF /* Mick.storyboard in Resources */,
 				29F876331C42EC350022523F /* room.png in Resources */,
 				29F876351C42EC350022523F /* imgext.jpg in Resources */,
+				29F8763B1C4300560022523F /* soundhouse_attichigh-res.jpg in Resources */,
 				29F876221C42D65E0022523F /* Main.storyboard in Resources */,
 				9E202C5E1BFAC0C6007CEFCF /* Assets.xcassets in Resources */,
 				9E202C6B1BFAC111007CEFCF /* Joao.storyboard in Resources */,
@@ -208,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F876411C43074C0022523F /* BrowseSpacesTableViewCell.swift in Sources */,
 				29F8762D1C42EBA70022523F /* SpaceDetailViewController.swift in Sources */,
 				29F876281C42D8510022523F /* BrowseCityTableViewController.swift in Sources */,
 				9E202C571BFAC0C6007CEFCF /* AppDelegate.swift in Sources */,

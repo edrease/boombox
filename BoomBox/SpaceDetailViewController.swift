@@ -9,6 +9,8 @@
 import UIKit
 
 class SpaceDetailViewController: UIViewController {
+    
+    var passedSpace: PracticeSpace!
 
     override func viewDidLoad() {
         super.viewDidLoad()
