@@ -25,6 +25,7 @@
 		29F876431C430DF40022523F /* people_DSC0209.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F876421C430DF40022523F /* people_DSC0209.jpg */; };
 		29F876451C43247C0022523F /* SpacePhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F876441C43247C0022523F /* SpacePhotoCollectionViewCell.swift */; };
 		6CF725C81C444BA4006FB5FC /* Messaging.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF725C71C444BA4006FB5FC /* Messaging.storyboard */; };
+		6CF725CA1C4460F5006FB5FC /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF725C91C4460F5006FB5FC /* Keys.swift */; };
 		9E202C571BFAC0C6007CEFCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */; };
 		9E202C5E1BFAC0C6007CEFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5D1BFAC0C6007CEFCF /* Assets.xcassets */; };
 		9E202C611BFAC0C6007CEFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5F1BFAC0C6007CEFCF /* LaunchScreen.storyboard */; };
@@ -50,6 +51,7 @@
 		31A0637A078AA1C11C78950E /* Pods-BoomBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoomBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoomBox/Pods-BoomBox.debug.xcconfig"; sourceTree = "<group>"; };
 		52B716BCCE708ABE9126F0EF /* Pods-BoomBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoomBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoomBox/Pods-BoomBox.release.xcconfig"; sourceTree = "<group>"; };
 		6CF725C71C444BA4006FB5FC /* Messaging.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Messaging.storyboard; sourceTree = "<group>"; };
+		6CF725C91C4460F5006FB5FC /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		928B0606B670725CDF0DA6F4 /* Pods_BoomBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoomBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E202C531BFAC0C6007CEFCF /* BoomBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			children = (
 				29F876251C42D8250022523F /* PracticeSpace.swift */,
 				29F876381C42F8DC0022523F /* SpaceOwner.swift */,
+				6CF725C91C4460F5006FB5FC /* Keys.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29F876411C43074C0022523F /* BrowseSpacesTableViewCell.swift in Sources */,
+				6CF725CA1C4460F5006FB5FC /* Keys.swift in Sources */,
 				29F8762D1C42EBA70022523F /* SpaceDetailViewController.swift in Sources */,
 				29F876281C42D8510022523F /* BrowseCityTableViewController.swift in Sources */,
 				29F876451C43247C0022523F /* SpacePhotoCollectionViewCell.swift in Sources */,
