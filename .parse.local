@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "BoomBox": {
+      "applicationId": "QGX7Pzc2bcvim9KAWQMd320kHU53y7hrje0hxhpi"
+    },
+    "_default": {
+      "link": "BoomBox"
+    }
+  }
+}
