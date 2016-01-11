@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1846A98DFFEFE4A7415B6B /* Pods_BoomBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928B0606B670725CDF0DA6F4 /* Pods_BoomBox.framework */; };
 		29F8761D1C42D4FC0022523F /* BrowseAndSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F8761C1C42D4FC0022523F /* BrowseAndSearch.storyboard */; };
 		29F876221C42D65E0022523F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F876211C42D65E0022523F /* Main.storyboard */; };
 		29F876261C42D8250022523F /* PracticeSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F876251C42D8250022523F /* PracticeSpace.swift */; };
@@ -23,13 +24,10 @@
 		29F876411C43074C0022523F /* BrowseSpacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F876401C43074C0022523F /* BrowseSpacesTableViewCell.swift */; };
 		29F876431C430DF40022523F /* people_DSC0209.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F876421C430DF40022523F /* people_DSC0209.jpg */; };
 		29F876451C43247C0022523F /* SpacePhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F876441C43247C0022523F /* SpacePhotoCollectionViewCell.swift */; };
+		6CF725C81C444BA4006FB5FC /* Messaging.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF725C71C444BA4006FB5FC /* Messaging.storyboard */; };
 		9E202C571BFAC0C6007CEFCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */; };
-		9E202C5C1BFAC0C6007CEFCF /* Ed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5A1BFAC0C6007CEFCF /* Ed.storyboard */; };
 		9E202C5E1BFAC0C6007CEFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5D1BFAC0C6007CEFCF /* Assets.xcassets */; };
 		9E202C611BFAC0C6007CEFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5F1BFAC0C6007CEFCF /* LaunchScreen.storyboard */; };
-		9E202C691BFAC0EC007CEFCF /* McClure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C681BFAC0EC007CEFCF /* McClure.storyboard */; };
-		9E202C6B1BFAC111007CEFCF /* Joao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C6A1BFAC111007CEFCF /* Joao.storyboard */; };
-		9E202C6D1BFAC11E007CEFCF /* Mick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C6C1BFAC11E007CEFCF /* Mick.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,15 +47,15 @@
 		29F876401C43074C0022523F /* BrowseSpacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseSpacesTableViewCell.swift; sourceTree = "<group>"; };
 		29F876421C430DF40022523F /* people_DSC0209.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = people_DSC0209.jpg; sourceTree = "<group>"; };
 		29F876441C43247C0022523F /* SpacePhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacePhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		31A0637A078AA1C11C78950E /* Pods-BoomBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoomBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoomBox/Pods-BoomBox.debug.xcconfig"; sourceTree = "<group>"; };
+		52B716BCCE708ABE9126F0EF /* Pods-BoomBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoomBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoomBox/Pods-BoomBox.release.xcconfig"; sourceTree = "<group>"; };
+		6CF725C71C444BA4006FB5FC /* Messaging.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Messaging.storyboard; sourceTree = "<group>"; };
+		928B0606B670725CDF0DA6F4 /* Pods_BoomBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoomBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E202C531BFAC0C6007CEFCF /* BoomBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E202C5B1BFAC0C6007CEFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Ed.storyboard; sourceTree = "<group>"; };
 		9E202C5D1BFAC0C6007CEFCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E202C601BFAC0C6007CEFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E202C621BFAC0C6007CEFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E202C681BFAC0EC007CEFCF /* McClure.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = McClure.storyboard; sourceTree = "<group>"; };
-		9E202C6A1BFAC111007CEFCF /* Joao.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Joao.storyboard; sourceTree = "<group>"; };
-		9E202C6C1BFAC11E007CEFCF /* Mick.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mick.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +63,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1846A98DFFEFE4A7415B6B /* Pods_BoomBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		152521D55203C368B755802F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31A0637A078AA1C11C78950E /* Pods-BoomBox.debug.xcconfig */,
+				52B716BCCE708ABE9126F0EF /* Pods-BoomBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		29F876191C42D4970022523F /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,12 +104,17 @@
 			children = (
 				29F876211C42D65E0022523F /* Main.storyboard */,
 				29F8761C1C42D4FC0022523F /* BrowseAndSearch.storyboard */,
-				9E202C5A1BFAC0C6007CEFCF /* Ed.storyboard */,
-				9E202C681BFAC0EC007CEFCF /* McClure.storyboard */,
-				9E202C6A1BFAC111007CEFCF /* Joao.storyboard */,
-				9E202C6C1BFAC11E007CEFCF /* Mick.storyboard */,
+				6CF725C71C444BA4006FB5FC /* Messaging.storyboard */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		45CA506E242F4ABC7A83E167 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				928B0606B670725CDF0DA6F4 /* Pods_BoomBox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9E202C4A1BFAC0C6007CEFCF = {
@@ -109,6 +122,8 @@
 			children = (
 				9E202C551BFAC0C6007CEFCF /* BoomBox */,
 				9E202C541BFAC0C6007CEFCF /* Products */,
+				152521D55203C368B755802F /* Pods */,
+				45CA506E242F4ABC7A83E167 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E202C651BFAC0C6007CEFCF /* Build configuration list for PBXNativeTarget "BoomBox" */;
 			buildPhases = (
+				479089007C0AD52CE9B83FFE /* Check Pods Manifest.lock */,
 				9E202C4F1BFAC0C6007CEFCF /* Sources */,
 				9E202C501BFAC0C6007CEFCF /* Frameworks */,
 				9E202C511BFAC0C6007CEFCF /* Resources */,
+				4E1B4A973F77DE5434206C82 /* Embed Pods Frameworks */,
+				6988CB87BBBFAB395524784B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,26 +218,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E202C691BFAC0EC007CEFCF /* McClure.storyboard in Resources */,
 				29F876341C42EC350022523F /* DSC_1172aa.jpg in Resources */,
 				29F876361C42EC350022523F /* rehearsal-space.jpg in Resources */,
 				29F8763D1C43005C0022523F /* Rehearsing_02_magnet.jpg in Resources */,
 				9E202C611BFAC0C6007CEFCF /* LaunchScreen.storyboard in Resources */,
-				9E202C6D1BFAC11E007CEFCF /* Mick.storyboard in Resources */,
 				29F876331C42EC350022523F /* room.png in Resources */,
 				29F876351C42EC350022523F /* imgext.jpg in Resources */,
 				29F8763B1C4300560022523F /* soundhouse_attichigh-res.jpg in Resources */,
 				29F876221C42D65E0022523F /* Main.storyboard in Resources */,
+				6CF725C81C444BA4006FB5FC /* Messaging.storyboard in Resources */,
 				29F876431C430DF40022523F /* people_DSC0209.jpg in Resources */,
 				9E202C5E1BFAC0C6007CEFCF /* Assets.xcassets in Resources */,
-				9E202C6B1BFAC111007CEFCF /* Joao.storyboard in Resources */,
-				9E202C5C1BFAC0C6007CEFCF /* Ed.storyboard in Resources */,
 				29F8761D1C42D4FC0022523F /* BrowseAndSearch.storyboard in Resources */,
 				29F876371C42EC350022523F /* room-with-window-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		479089007C0AD52CE9B83FFE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E1B4A973F77DE5434206C82 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoomBox/Pods-BoomBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6988CB87BBBFAB395524784B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoomBox/Pods-BoomBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E202C4F1BFAC0C6007CEFCF /* Sources */ = {
@@ -239,14 +302,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9E202C5A1BFAC0C6007CEFCF /* Ed.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E202C5B1BFAC0C6007CEFCF /* Base */,
-			);
-			name = Ed.storyboard;
-			sourceTree = "<group>";
-		};
 		9E202C5F1BFAC0C6007CEFCF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,6 +398,7 @@
 		};
 		9E202C661BFAC0C6007CEFCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A0637A078AA1C11C78950E /* Pods-BoomBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -356,6 +412,7 @@
 		};
 		9E202C671BFAC0C6007CEFCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B716BCCE708ABE9126F0EF /* Pods-BoomBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
