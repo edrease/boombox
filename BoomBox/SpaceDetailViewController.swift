@@ -12,6 +12,20 @@ class SpaceDetailViewController: UIViewController, UICollectionViewDataSource, U
     
     var passedSpace: PracticeSpace!
     
+    @IBOutlet weak var spaceTitleLabel: UILabel!
+    @IBOutlet weak var hostNameLabel: UILabel!
+    @IBOutlet weak var otherHostInfoLabel: UILabel!
+    
+    @IBAction func contactThisHostButtonPressed(sender: UIButton) {
+        //trigger messaging system here
+        print("contact button pressed")
+    }
+    
+    @IBAction func requestToBookButtonPressed(sender: UIButton) {
+        //trigger booking system here
+        print("request to book pressed")
+    }
+    
     
     @IBOutlet weak var spaceCollectionView: UICollectionView!
 
@@ -22,6 +36,9 @@ class SpaceDetailViewController: UIViewController, UICollectionViewDataSource, U
         
         self.spaceCollectionView.dataSource = self
         self.spaceCollectionView.delegate = self
+        
+        self.spaceTitleLabel.text = self.passedSpace.title
+        self.hostNameLabel.text = "\(self.passedSpace.owner.firstName) \(self.passedSpace.owner.lastName)"
 
         // Do any additional setup after loading the view.
     }
@@ -57,6 +74,13 @@ class SpaceDetailViewController: UIViewController, UICollectionViewDataSource, U
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         // handle tap events
         print("You selected cell #\(indexPath.item)!")
+    }
+
+    //Use for size
+    func collectionView(collectionView: UICollectionView,
+        layout collectionViewLayout: UICollectionViewLayout,
+        sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+            return CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height/2.5)
     }
 
     /*

@@ -127,6 +127,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                 <state key="normal" title="Request to Book"/>
+                                <connections>
+                                    <action selector="requestToBookButtonPressed:" destination="Lud-ns-evN" eventType="touchUpInside" id="dnd-qD-mRt"/>
+                                </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSE-fa-SnG">
                                 <rect key="frame" x="0.0" y="64" width="600" height="488"/>
@@ -137,7 +140,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="114" id="0yq-W8-YO4"/>
                                         </constraints>
-                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="bJm-CN-maD">
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="bJm-CN-maD">
                                             <size key="itemSize" width="596" height="146"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -145,13 +148,13 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="photoCell" id="WU2-QB-vJ5" customClass="SpacePhotoCollectionViewCell" customModule="BoomBox" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="596" height="146"/>
+                                                <rect key="frame" x="0.0" y="0.5" width="596" height="146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                     <rect key="frame" x="0.0" y="0.0" width="596" height="146"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ASI-GS-jnS">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ASI-GS-jnS">
                                                             <rect key="frame" x="0.0" y="0.0" width="596" height="146"/>
                                                         </imageView>
                                                     </subviews>
@@ -232,13 +235,27 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5N-Qd-9ux">
                                         <rect key="frame" x="200" y="342.5" width="388" height="54.5"/>
                                         <color key="backgroundColor" red="0.96787478226421575" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                         <state key="normal" title="Contact This Host"/>
+                                        <connections>
+                                            <action selector="contactThisHostButtonPressed:" destination="Lud-ns-evN" eventType="touchUpInside" id="rKD-jD-T9G"/>
+                                        </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2rg-ma-Qly">
                                         <rect key="frame" x="12" y="405" width="576" height="75"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="space details here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BnU-eQ-QpR">
+                                                <rect key="frame" x="267" y="27" width="42" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstItem="BnU-eQ-QpR" firstAttribute="centerX" secondItem="2rg-ma-Qly" secondAttribute="centerX" id="bu5-82-FI2"/>
                                             <constraint firstAttribute="height" constant="187" id="c4h-7R-C1D"/>
+                                            <constraint firstItem="BnU-eQ-QpR" firstAttribute="centerY" secondItem="2rg-ma-Qly" secondAttribute="centerY" id="rgB-4b-PVR"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -304,7 +321,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="hostNameLabel" destination="C33-In-qnn" id="iwZ-6g-aez"/>
+                        <outlet property="otherHostInfoLabel" destination="jLn-dc-Gi6" id="BtH-I0-Dbr"/>
                         <outlet property="spaceCollectionView" destination="FK1-Je-kSH" id="Sit-o7-AQp"/>
+                        <outlet property="spaceTitleLabel" destination="JIt-ly-FfN" id="0uf-br-wKN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b8E-M6-0zg" userLabel="First Responder" sceneMemberID="firstResponder"/>
