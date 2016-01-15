@@ -25,11 +25,15 @@
 		29F876431C430DF40022523F /* people_DSC0209.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F876421C430DF40022523F /* people_DSC0209.jpg */; };
 		29F876451C43247C0022523F /* SpacePhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F876441C43247C0022523F /* SpacePhotoCollectionViewCell.swift */; };
 		6CF725C81C444BA4006FB5FC /* Messaging.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF725C71C444BA4006FB5FC /* Messaging.storyboard */; };
-		6CF725CA1C4460F5006FB5FC /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF725C91C4460F5006FB5FC /* Keys.swift */; };
 		6CF725CC1C45176F006FB5FC /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF725CB1C45176F006FB5FC /* MessagingViewController.swift */; };
+		9E1DD67F1C47813A0008371A /* Reservations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1DD67E1C47813A0008371A /* Reservations.storyboard */; settings = {ASSET_TAGS = (); }; };
+		9E1DD6811C4785AF0008371A /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1DD6801C4785AF0008371A /* ReservationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		9E202C571BFAC0C6007CEFCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */; };
 		9E202C5E1BFAC0C6007CEFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5D1BFAC0C6007CEFCF /* Assets.xcassets */; };
 		9E202C611BFAC0C6007CEFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E202C5F1BFAC0C6007CEFCF /* LaunchScreen.storyboard */; };
+		9EBC965E1C4863300043AA08 /* PendingListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC965D1C4863300043AA08 /* PendingListingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9EBC96601C4867370043AA08 /* AcceptedListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC965F1C4867370043AA08 /* AcceptedListingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9EBC96621C4869300043AA08 /* DeclinedListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC96611C4869300043AA08 /* DeclinedListingViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,11 +59,16 @@
 		6CF725C91C4460F5006FB5FC /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		6CF725CB1C45176F006FB5FC /* MessagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
 		928B0606B670725CDF0DA6F4 /* Pods_BoomBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoomBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1DD67E1C47813A0008371A /* Reservations.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Reservations.storyboard; sourceTree = "<group>"; };
+		9E1DD6801C4785AF0008371A /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 		9E202C531BFAC0C6007CEFCF /* BoomBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E202C561BFAC0C6007CEFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E202C5D1BFAC0C6007CEFCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E202C601BFAC0C6007CEFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E202C621BFAC0C6007CEFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EBC965D1C4863300043AA08 /* PendingListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingListingViewController.swift; sourceTree = "<group>"; };
+		9EBC965F1C4867370043AA08 /* AcceptedListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptedListingViewController.swift; sourceTree = "<group>"; };
+		9EBC96611C4869300043AA08 /* DeclinedListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeclinedListingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +105,13 @@
 		29F8761A1C42D4AB0022523F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9EBC965C1C485B710043AA08 /* ReservationControllers */,
 				29F876271C42D8510022523F /* BrowseCityTableViewController.swift */,
 				29F8762C1C42EBA70022523F /* SpaceDetailViewController.swift */,
 				29F876401C43074C0022523F /* BrowseSpacesTableViewCell.swift */,
 				29F876441C43247C0022523F /* SpacePhotoCollectionViewCell.swift */,
 				6CF725CB1C45176F006FB5FC /* MessagingViewController.swift */,
+				9E1DD6801C4785AF0008371A /* ReservationViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -111,6 +122,7 @@
 				29F876211C42D65E0022523F /* Main.storyboard */,
 				29F8761C1C42D4FC0022523F /* BrowseAndSearch.storyboard */,
 				6CF725C71C444BA4006FB5FC /* Messaging.storyboard */,
+				9E1DD67E1C47813A0008371A /* Reservations.storyboard */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -161,6 +173,16 @@
 				9E202C621BFAC0C6007CEFCF /* Info.plist */,
 			);
 			path = BoomBox;
+			sourceTree = "<group>";
+		};
+		9EBC965C1C485B710043AA08 /* ReservationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9EBC965D1C4863300043AA08 /* PendingListingViewController.swift */,
+				9EBC965F1C4867370043AA08 /* AcceptedListingViewController.swift */,
+				9EBC96611C4869300043AA08 /* DeclinedListingViewController.swift */,
+			);
+			name = ReservationControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +259,7 @@
 				9E202C5E1BFAC0C6007CEFCF /* Assets.xcassets in Resources */,
 				29F8761D1C42D4FC0022523F /* BrowseAndSearch.storyboard in Resources */,
 				29F876371C42EC350022523F /* room-with-window-1.jpg in Resources */,
+				9E1DD67F1C47813A0008371A /* Reservations.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,11 +319,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				29F876411C43074C0022523F /* BrowseSpacesTableViewCell.swift in Sources */,
-				6CF725CA1C4460F5006FB5FC /* Keys.swift in Sources */,
+				9EBC965E1C4863300043AA08 /* PendingListingViewController.swift in Sources */,
 				6CF725CC1C45176F006FB5FC /* MessagingViewController.swift in Sources */,
 				29F8762D1C42EBA70022523F /* SpaceDetailViewController.swift in Sources */,
 				29F876281C42D8510022523F /* BrowseCityTableViewController.swift in Sources */,
+				9E1DD6811C4785AF0008371A /* ReservationViewController.swift in Sources */,
 				29F876451C43247C0022523F /* SpacePhotoCollectionViewCell.swift in Sources */,
+				9EBC96621C4869300043AA08 /* DeclinedListingViewController.swift in Sources */,
+				9EBC96601C4867370043AA08 /* AcceptedListingViewController.swift in Sources */,
 				9E202C571BFAC0C6007CEFCF /* AppDelegate.swift in Sources */,
 				29F876261C42D8250022523F /* PracticeSpace.swift in Sources */,
 				29F876391C42F8DC0022523F /* SpaceOwner.swift in Sources */,
@@ -428,6 +454,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.warriors.BoomBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
