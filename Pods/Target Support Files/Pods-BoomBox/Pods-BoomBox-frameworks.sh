@@ -85,9 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-BoomBox/Atlas.framework"
+  install_framework "Pods-BoomBox/CalendarView.framework"
   install_framework "${PODS_ROOT}/LayerKit/LayerKit.framework"
+  install_framework "Pods-BoomBox/SwiftMoment.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-BoomBox/Atlas.framework"
+  install_framework "Pods-BoomBox/CalendarView.framework"
   install_framework "${PODS_ROOT}/LayerKit/LayerKit.framework"
+  install_framework "Pods-BoomBox/SwiftMoment.framework"
 fi
