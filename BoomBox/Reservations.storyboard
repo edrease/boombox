@@ -33,7 +33,7 @@
                                                 </label>
                                             </subviews>
                                             <animations/>
-                                            <color key="backgroundColor" red="0.14028961489898994" green="0.14028961489898994" blue="0.14028961489898994" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.14869397100000001" green="0.14869397100000001" blue="0.14869397100000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="0GU-Ql-HCn" firstAttribute="centerX" secondItem="OVl-59-Aud" secondAttribute="centerX" id="OhS-g3-qaD"/>
                                                 <constraint firstItem="0GU-Ql-HCn" firstAttribute="centerY" secondItem="OVl-59-Aud" secondAttribute="centerY" id="pxj-Q6-gmB"/>
@@ -60,7 +60,7 @@
                                                 </label>
                                             </subviews>
                                             <animations/>
-                                            <color key="backgroundColor" red="0.17622609705525327" green="0.35807291666666663" blue="0.086863334371208648" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.057070592929999997" green="0.24909248740000001" blue="0.242605033" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="tKm-vE-48R" firstAttribute="centerY" secondItem="QCj-bm-W6U" secondAttribute="centerY" id="SQd-jA-QF0"/>
                                                 <constraint firstItem="tKm-vE-48R" firstAttribute="centerX" secondItem="QCj-bm-W6U" secondAttribute="centerX" id="rj4-OW-olI"/>

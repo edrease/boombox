@@ -6,6 +6,8 @@ use_frameworks!
 target 'BoomBox' do
 
 pod 'Atlas'
+pod ‘CalendarView’
+pod ‘SwiftMoment’
 
 end
 
