@@ -8,6 +8,7 @@ target 'BoomBox' do
 pod 'Atlas'
 pod ‘CalendarView’
 pod ‘SwiftMoment’
+pod 'Parse'
 
 end
 

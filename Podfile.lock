@@ -1,20 +1,26 @@
 PODS:
   - Atlas (1.0.16):
     - LayerKit (>= 0.17.1)
+  - Bolts/Tasks (1.6.0)
   - CalendarView (1.1.1):
     - SwiftMoment (~> 0.1)
   - LayerKit (0.17.6)
+  - Parse (1.12.0):
+    - Bolts/Tasks (~> 1.5)
   - SwiftMoment (0.3)
 
 DEPENDENCIES:
   - Atlas
   - CalendarView
+  - Parse
   - SwiftMoment
 
 SPEC CHECKSUMS:
   Atlas: d9ae5e5f6cd4012555f21cdbab8d2a373d5f2b3d
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
   CalendarView: 5eae22e02cbed4e0282677885a72d97dfd34b7a5
   LayerKit: 8fb2a7997ae354f5b00854dd6a3104c622477276
+  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
   SwiftMoment: 79f924ccf5450a5406b00eaebe5bfb248cc5e33d
 
-COCOAPODS: 0.39.0
+COCOAPODS: 0.38.2
